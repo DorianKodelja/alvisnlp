@@ -111,6 +111,7 @@ header {
 .toc-item {
     list-style-type: none;
     font-family: sans-serif;
+    font-size: 60%;
 }
 
 .toc-item a:hover {
