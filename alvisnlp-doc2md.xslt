@@ -72,8 +72,8 @@ limitations under the License.
 	</xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
-    <xsl:text>&lt;h2>
-&lt;a class="no-toc" href="{{ &apos;/reference/</xsl:text>
+    <xsl:text>&lt;h2 class="no-toc">
+&lt;a href="{{ &apos;/reference/</xsl:text>
     <xsl:value-of select="concat($class, '/', @target)"/>
     <xsl:text>&apos; | relative_url }}" class="</xsl:text>
     <xsl:value-of select="concat($class, '&quot;>', @short-target)"/>
