@@ -31,19 +31,19 @@ The AlvisNLP/ML distribution contains pre-defined stylesheets.
 
 | **Stylesheet location**  | **Schema**        |
 |--------------------------|-------------------|
-| `res://fr.inra.maiage.bibliome.alvisnlp.bibliomefactory.resources/XMLReader/endnote2alvisnlp.xslt`    | <a href="http://endnote.com">EndNote</a>           |
-| `res://fr.inra.maiage.bibliome.alvisnlp.bibliomefactory.resources/XMLReader/gene-train2alvisnlp.xslt` | gene-train        |
-| `res://fr.inra.maiage.bibliome.alvisnlp.bibliomefactory.resources/XMLReader/html2alvisnlp.xslt`       | HTML              |
-| `res://fr.inra.maiage.bibliome.alvisnlp.bibliomefactory.resources/XMLReader/pmc2alvisnlp.xslt`        | PubMed Central OA |
-| `res://fr.inra.maiage.bibliome.alvisnlp.bibliomefactory.resources/XMLReader/prodINRA2alvisnlp.xslt`   | ProdINRA          |
-| `res://fr.inra.maiage.bibliome.alvisnlp.bibliomefactory.resources/XMLReader/pubmed2alvisnlp.xslt`     | PubMed            |
+| `res://XMLReader/endnote2alvisnlp.xslt`    | <a href="http://endnote.com">EndNote</a>           |
+| `res://XMLReader/gene-train2alvisnlp.xslt` | gene-train        |
+| `res://XMLReader/html2alvisnlp.xslt`       | HTML              |
+| `res://XMLReader/pmc2alvisnlp.xslt`        | PubMed Central OA |
+| `res://XMLReader/prodINRA2alvisnlp.xslt`   | ProdINRA          |
+| `res://XMLReader/pubmed2alvisnlp.xslt`     | PubMed            |
 
 ### Multi-purpose reader
 
 The AlvisNLP/ML distribution ships with a plan that can read documents in various formats:
 
 ```xml
-<import href="res://fr.inra.maiage.bibliome.alvisnlp.bibliomefactory.resources/reader.plan">
+<import href="res://reader.plan">
   <select>...</select>
   <source>...</source>
 </import>
@@ -170,7 +170,7 @@ Named entity recognition modules.
 The AlvisNLP/ML distribution ships with a ready-made complete word and sentence splitter plan that can be imported like this:
 
 ```xml
-<import>res://fr.inra.maiage.bibliome.alvisnlp.bibliomefactory.resources/segmentation.plan</import>
+<import>res://segmentation.plan</import>
 ```
 
 This plan combines several modules that nadles correctly latin abbreviations, cesure hyphens, numbers, and dates.
