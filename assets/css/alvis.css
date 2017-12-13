@@ -1,3 +1,10 @@
+:root {
+    --color-primary: #BCD631;
+    --color-secondary: #8BAE28;
+    --color-table: #AAAAAA;
+    --color-code: #EEEEEE;
+}
+
 /* Header and menu */
 
 header {
@@ -6,8 +13,8 @@ header {
     padding-bottom: 10px;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: #BCD631;
-    border: solid #8BAE28 1px;
+    background-color: var(--color-primary);
+    border: solid var(--color-secondary) 1px;
     font-family: sans-serif;
 }
 
@@ -46,13 +53,13 @@ header {
     border-left-style: solid;
     border-right-style: solid;
     border-width: 1px;
-    border-color: #8BAE28;
+    border-color: var(--color-secondary);
     text-decoration: none;
     color: white;
 }
 
 .menu-item:hover {
-    background-color: #8BAE28;
+    background-color: var(--color-secondary);
     color: white;
 }
 
@@ -77,7 +84,7 @@ header {
 }
 
 .dropdown-content a {
-    background-color: #BCD631;
+    background-color: var(--color-primary);
     display: block;
     border-bottom-style: solid;
 }
@@ -115,7 +122,7 @@ header {
 }
 
 .toc-item a:hover {
-    color: #BCD631;
+    color: var(--color-primary);
 }
 
 .toc-item a {
@@ -169,7 +176,7 @@ a:hover {
 }
 
 code {
-    background-color: #EEEEEE;
+    background-color: var(--color-code);
     border-radius: 3px;
 }
 
@@ -180,7 +187,7 @@ code {
 
 h1 , h2 , h3 , h4 , h4 {
     font-family: sans-serif;
-    color: #8BAE28;
+    color: var(--color-secondary);
 }
 
 h1 {
@@ -192,7 +199,7 @@ h1 {
 h2 {
     font-size: 150%;
     font-weight: bold;
-    border-bottom: solid #8BAE28 1px;
+    border-bottom: solid var(--color-secondary) 1px;
 }
 
 h3 {
@@ -223,7 +230,7 @@ h5 {
 /* Highlight */
 
 pre.highlight {
-    background-color: #EEEEEE;
+    background-color: var(--color-code);
     margin-top: 5px;
     margin-bottom: 20px;
     margin-left: 60px;
@@ -267,18 +274,18 @@ table {
 }
 
 thead {
-    background-color: #AAAAAA;
+    background-color: var(--color-table);
 }
 
 tr {
     border-bottom-style: solid;
-    border-bottom-color: #AAAAAA;
+    border-bottom-color: var(--color-table);
     border-bottom-width: 1px;
     border-left-style: solid;
-    border-left-color: #AAAAAA;
+    border-left-color: var(--color-table);
     border-left-width: 1px;
     border-right-style: solid;
-    border-right-color: #AAAAAA;
+    border-right-color: var(--color-table);
     border-right-width: 1px;
 }
 
@@ -332,7 +339,7 @@ a.library {
 }
 
 .param {
-	color: orange !important;
+	color: DarkOrange !important;
 }
 
 a.param {
@@ -375,8 +382,8 @@ footer {
     margin-bottom: 0px;
     padding-top: 5px;
     padding-bottom: 0px;
-    border-top: solid #8BAE28 1px;
-    color: #8BAE28;
+    border-top: solid var(--color-secondary) 1px;
+    color: var(--color-secondary);
     text-align: center;
     font-family: sans-serif;
     font-size: 80%;
