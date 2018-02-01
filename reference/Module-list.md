@@ -205,6 +205,10 @@
 </h2>
 
 <h2 class="no-toc">
+<a href="{{ '/reference/module/fr.inra.maiage.bibliome.alvisnlp.bibliomefactory.modules.contes.Word2Vec' | relative_url }}" class="module">Word2Vec</a>
+</h2>
+
+<h2 class="no-toc">
 <a href="{{ '/reference/module/fr.inra.maiage.bibliome.alvisnlp.bibliomefactory.modules.enju.EnjuParser' | relative_url }}" class="module">EnjuParser</a>
 </h2>
 

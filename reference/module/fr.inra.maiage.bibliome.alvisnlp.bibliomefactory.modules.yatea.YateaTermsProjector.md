@@ -20,16 +20,6 @@ UNDOCUMENTED
 </div>
 UNDOCUMENTED
 
-<a name="termLemma">
-
-### termLemma
-
-<div class="param-level param-level-optional">Optional
-</div>
-<div class="param-type">Type: <a href="../converter/java.lang.String" class="converter">String</a>
-</div>
-UNDOCUMENTED
-
 <a name="yateaFile">
 
 ### yateaFile
@@ -245,6 +235,16 @@ UNDOCUMENTED
 ### termId
 
 <div class="param-level param-level-default-value">Default value: `term-id`
+</div>
+<div class="param-type">Type: <a href="../converter/java.lang.String" class="converter">String</a>
+</div>
+UNDOCUMENTED
+
+<a name="termLemma">
+
+### termLemma
+
+<div class="param-level param-level-default-value">Default value: `lemma`
 </div>
 <div class="param-type">Type: <a href="../converter/java.lang.String" class="converter">String</a>
 </div>

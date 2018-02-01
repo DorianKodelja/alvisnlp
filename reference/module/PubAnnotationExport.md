@@ -22,11 +22,41 @@ UNDOCUMENTED
 </div>
 UNDOCUMENTED
 
+<a name="divid">
+
+### divid
+
+<div class="param-level param-level-optional">Optional
+</div>
+<div class="param-type">Type: <a href="../converter/fr.inra.maiage.bibliome.alvisnlp.core.corpus.expressions.Expression" class="converter">Expression</a>
+</div>
+UNDOCUMENTED
+
+<a name="sourcedb">
+
+### sourcedb
+
+<div class="param-level param-level-optional">Optional
+</div>
+<div class="param-type">Type: <a href="../converter/fr.inra.maiage.bibliome.alvisnlp.core.corpus.expressions.Expression" class="converter">Expression</a>
+</div>
+UNDOCUMENTED
+
+<a name="sourceid">
+
+### sourceid
+
+<div class="param-level param-level-optional">Optional
+</div>
+<div class="param-type">Type: <a href="../converter/fr.inra.maiage.bibliome.alvisnlp.core.corpus.expressions.Expression" class="converter">Expression</a>
+</div>
+UNDOCUMENTED
+
 <a name="denotations">
 
 ### denotations
 
-<div class="param-level param-level-default-value">Default value: `fr.inra.maiage.bibliome.alvisnlp.bibliomefactory.modules.pubannotation.DenotationSpecification@1a04f701`
+<div class="param-level param-level-default-value">Default value: `fr.inra.maiage.bibliome.alvisnlp.bibliomefactory.modules.pubannotation.DenotationSpecification@2bbf180e`
 </div>
 <div class="param-type">Type: <a href="../converter/fr.inra.maiage.bibliome.alvisnlp.bibliomefactory.modules.pubannotation.DenotationSpecification[]" class="converter">DenotationSpecification[]</a>
 </div>
@@ -46,7 +76,7 @@ UNDOCUMENTED
 
 ### relations
 
-<div class="param-level param-level-default-value">Default value: `fr.inra.maiage.bibliome.alvisnlp.bibliomefactory.modules.pubannotation.RelationSpecification@2bbf180e`
+<div class="param-level param-level-default-value">Default value: `fr.inra.maiage.bibliome.alvisnlp.bibliomefactory.modules.pubannotation.RelationSpecification@419c5f1a`
 </div>
 <div class="param-type">Type: <a href="../converter/fr.inra.maiage.bibliome.alvisnlp.bibliomefactory.modules.pubannotation.RelationSpecification[]" class="converter">RelationSpecification[]</a>
 </div>
