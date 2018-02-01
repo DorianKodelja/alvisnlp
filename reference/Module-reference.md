@@ -138,10 +138,11 @@ This section presents the module classes that can be used to train and classify 
 
 | **Training class** | **Prediction class** | **Target**  | **Algorithm** | **Comments** |
 |--------------------|----------------------|-------------|---------------|--------------|
-| {% include module class="TEESTrain" %}    | {% include module class="TEESClassify" %}   | Tuples      | SVM           | |
-| {% include module class="TomapTrain" %}   | {% include module class="TomapProjector" %} | Annotations | ToMap         | |
-| {% include module class="WapitiTrain" %}  | {% include module class="WapitiLabel" %}    | Annotations | CRF           | |
-| {% include module class="WekaTrain" %}    | {% include module class="WekaPredict" %}    | Any         | Various       | Uses the Weka library |
+| {% include module class="TEESTrain" %}    | {% include module class="TEESClassify" %}   | Tuples      | SVM                 | |
+| {% include module class="TomapTrain" %}   | {% include module class="TomapProjector" %} | Annotations | ToMap               | |
+| {% include module class="WapitiTrain" %}  | {% include module class="WapitiLabel" %}    | Annotations | CRF                 | |
+| {% include module class="WekaTrain" %}    | {% include module class="WekaPredict" %}    | Any         | Various             | Uses the Weka library |
+| {% include module class="Word2Vec" %}     |                                             | Annotations | NN (word embedding) | Uses python with Gensim |
 
 Additionally, the module class {% include module class="WekaSelectAttributes" %} uses the Weka library for attribute selection.
 
