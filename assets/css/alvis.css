@@ -80,7 +80,7 @@ header {
     position: absolute;
     min-width: 120px;
     z-index: 1;
-    top: 38px;
+    top: 33px;
 }
 
 .dropdown-content a {
