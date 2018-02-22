@@ -137,6 +137,10 @@
 </h2>
 
 <h2 class="no-toc">
+<a href="{{ '/reference/converter/fr.inra.maiage.bibliome.util.files.InputFile[]' | relative_url }}" class="converter">InputFile[]</a>
+</h2>
+
+<h2 class="no-toc">
 <a href="{{ '/reference/converter/java.lang.Integer' | relative_url }}" class="converter">Integer</a>
 </h2>
 

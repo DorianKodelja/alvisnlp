@@ -23,6 +23,7 @@ Reader modules read files or streams as documents and sections.
 | {% include module class="TikaReader" %}           | DOC, DOCX, PDF      | `source`                                            | Uses <a href="https://tika.apache.org/">Apache Tika</a> |
 | {% include module class="TreeTaggerReader" %}     | tree-tagger         | `sourcePath`                                        | Also creates words, POS-tags and lemmas |
 | {% include module class="WebOfKnowledgeReader" %} | <a href="https://webofknowledge.com/">Web of Knowledge</a>    | `source`                                            |                  |
+| {% include module class="XMIImport" %}            | <a href="https://en.wikipedia.org/wiki/XML_Metadata_Interchange">XMI</a>                 | `source`                                        | Uses <a href="https://uima.apache.org/">Apache UIMA</a>, feature structures follow a custom typesystem |
 | {% include module class="XMLReader" %}            | XML, HTML           | `sourcePath`                                        | Requires an XSLT stylesheet |
 
 ### Stylesheets for XMLReader
@@ -89,6 +90,7 @@ Export modules translate the contents of the data structure and write it into fi
 | {% include module class="RelpWriter" %}             | `outFile`               | Relp                  | |
 | {% include module class="TabularExport" %}          | `outDir`, `fileName`    | tab-separated text    | |
 | {% include module class="WhatsWrongExport" %}       | `outFile`               | WhatsWrongWithMyNLP   | |
+| {% include module class="XMIExport" %}              | `outDir`                | XMI                   | Suitable for {% include module class="XMIImport" %} |
 | {% include module class="XMLWriter" %}              | `outDir`, `fileName`    | XML                   | Requires an XSLT stylesheet |
 
 
@@ -141,10 +143,12 @@ This section presents the module classes that can be used to train and classify 
 | {% include module class="TEESTrain" %}    | {% include module class="TEESClassify" %}   | Tuples      | SVM                 | |
 | {% include module class="TomapTrain" %}   | {% include module class="TomapProjector" %} | Annotations | ToMap               | |
 | {% include module class="WapitiTrain" %}  | {% include module class="WapitiLabel" %}    | Annotations | CRF                 | |
-| {% include module class="WekaTrain" %}    | {% include module class="WekaPredict" %}    | Any         | Various             | Uses the Weka library |
-| {% include module class="Word2Vec" %}     |                                             | Annotations | NN (word embedding) | Uses python with Gensim |
+| {% include module class="WekaTrain" %}    | {% include module class="WekaPredict" %}    | Any         | Various             | Uses the <a href="https://www.cs.waikato.ac.nz/ml/weka/">Weka library</a> |
+| {% include module class="ContesTrain" %}    | {% include module class="ContesPredict" %}    | Annotations         | Word Embedding, LR             | Uses <a href="https://github.com/ArnaudFerre/CONTES">CONTES</a> |
 
 Additionally, the module class {% include module class="WekaSelectAttributes" %} uses the Weka library for attribute selection.
+
+{% include module class="ContesTrain" %} and {% include module class="ContesPredict" %} require word embeddings that can be generated with {% include module class="Word2Vec" %}.
 
 ## NER
 

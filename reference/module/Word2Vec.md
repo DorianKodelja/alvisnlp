@@ -12,6 +12,16 @@ Computes word embeddings using the [CONTES/Gensis](https://github.com/ArnaudFerr
 
 ## Parameters
 
+<a name="contesDir">
+
+### contesDir
+
+<div class="param-level param-level-optional">Optional
+</div>
+<div class="param-type">Type: <a href="../converter/fr.inra.maiage.bibliome.util.files.InputDirectory" class="converter">InputDirectory</a>
+</div>
+Root directory of CONTES.
+
 <a name="jsonFile">
 
 ### jsonFile
@@ -21,16 +31,6 @@ Computes word embeddings using the [CONTES/Gensis](https://github.com/ArnaudFerr
 <div class="param-type">Type: <a href="../converter/fr.inra.maiage.bibliome.util.files.OutputFile" class="converter">OutputFile</a>
 </div>
 File where to write embeddings as a JSON object.
-
-<a name="word2vec">
-
-### word2vec
-
-<div class="param-level param-level-optional">Optional
-</div>
-<div class="param-type">Type: <a href="../converter/fr.inra.maiage.bibliome.util.files.ExecutableFile" class="converter">ExecutableFile</a>
-</div>
-Path to the CONTES `main_word2vec.py` script.
 
 <a name="workers">
 
@@ -70,7 +70,7 @@ Name of the feature where to store embeddings of each token. If this parameter i
 </div>
 <div class="param-type">Type: <a href="../converter/fr.inra.maiage.bibliome.alvisnlp.core.corpus.expressions.Expression" class="converter">Expression</a>
 </div>
-Only process document that satisfy this filter.
+Only process documents that satisfy this filter.
 
 <a name="formFeature">
 

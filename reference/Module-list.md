@@ -205,6 +205,14 @@
 </h2>
 
 <h2 class="no-toc">
+<a href="{{ '/reference/module/fr.inra.maiage.bibliome.alvisnlp.bibliomefactory.modules.contes.ContesPredict' | relative_url }}" class="module">ContesPredict</a>
+</h2>
+
+<h2 class="no-toc">
+<a href="{{ '/reference/module/fr.inra.maiage.bibliome.alvisnlp.bibliomefactory.modules.contes.ContesTrain' | relative_url }}" class="module">ContesTrain</a>
+</h2>
+
+<h2 class="no-toc">
 <a href="{{ '/reference/module/fr.inra.maiage.bibliome.alvisnlp.bibliomefactory.modules.contes.Word2Vec' | relative_url }}" class="module">Word2Vec</a>
 </h2>
 
@@ -362,6 +370,14 @@
 
 <h2 class="no-toc">
 <a href="{{ '/reference/module/fr.inra.maiage.bibliome.alvisnlp.bibliomefactory.modules.trie.XLSProjector' | relative_url }}" class="module">XLSProjector</a>
+</h2>
+
+<h2 class="no-toc">
+<a href="{{ '/reference/module/fr.inra.maiage.bibliome.alvisnlp.bibliomefactory.modules.uima.XMIExport' | relative_url }}" class="module">XMIExport</a>
+</h2>
+
+<h2 class="no-toc">
+<a href="{{ '/reference/module/fr.inra.maiage.bibliome.alvisnlp.bibliomefactory.modules.uima.XMIImport' | relative_url }}" class="module">XMIImport</a>
 </h2>
 
 <h2 class="no-toc">
