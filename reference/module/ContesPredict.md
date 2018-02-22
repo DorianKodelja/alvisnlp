@@ -2,13 +2,15 @@
 
 ## Synopsis
 
-UNDOCUMENTED
+Predict terms concepts using [CONTES](https://github.com/ArnaudFerre/CONTES).
 
 **This module is experimental.**
 
 ## Description
 
-UNDOCUMENTED
+*ContesPredict* predicts the concept in <a href="#ontology" class="param">ontology</a> associated to each term in <a href="#termLayer" class="param">termLayer</a>.
+
+*ContesPredict* uses a classifier specified by <a href="#regressionMatrix" class="param">regressionMatrix</a> that must have been produced by <a href="../module/ContesTrain" class="module">ContesTrain</a>.
 
 ## Parameters
 
@@ -20,7 +22,7 @@ UNDOCUMENTED
 </div>
 <div class="param-type">Type: <a href="../converter/java.lang.String" class="converter">String</a>
 </div>
-UNDOCUMENTED
+Feature of the term where to store the predicted concept.
 
 <a name="contesDir">
 
@@ -30,7 +32,7 @@ UNDOCUMENTED
 </div>
 <div class="param-type">Type: <a href="../converter/fr.inra.maiage.bibliome.util.files.InputDirectory" class="converter">InputDirectory</a>
 </div>
-UNDOCUMENTED
+Root directory of CONTES.
 
 <a name="ontology">
 
@@ -40,7 +42,7 @@ UNDOCUMENTED
 </div>
 <div class="param-type">Type: <a href="../converter/fr.inra.maiage.bibliome.util.files.InputFile" class="converter">InputFile</a>
 </div>
-UNDOCUMENTED
+Path to the ontology file in OBO or OWL format.
 
 <a name="regressionMatrix">
 
@@ -50,7 +52,7 @@ UNDOCUMENTED
 </div>
 <div class="param-type">Type: <a href="../converter/fr.inra.maiage.bibliome.util.files.InputFile" class="converter">InputFile</a>
 </div>
-UNDOCUMENTED
+Path to the classifier file produced by <a href="../module/ContesTrain" class="module">ContesTrain</a>.
 
 <a name="termLayer">
 
@@ -60,7 +62,7 @@ UNDOCUMENTED
 </div>
 <div class="param-type">Type: <a href="../converter/java.lang.String" class="converter">String</a>
 </div>
-UNDOCUMENTED
+Name of the layer that contain terms.
 
 <a name="wordEmbeddings">
 
@@ -70,7 +72,7 @@ UNDOCUMENTED
 </div>
 <div class="param-type">Type: <a href="../converter/fr.inra.maiage.bibliome.util.files.InputFile" class="converter">InputFile</a>
 </div>
-UNDOCUMENTED
+Path to the file containing word embeddings, as produced by <a href="../module/Word2Vec" class="module">Word2Vec</a>.
 
 <a name="documentFilter">
 
@@ -80,7 +82,7 @@ UNDOCUMENTED
 </div>
 <div class="param-type">Type: <a href="../converter/fr.inra.maiage.bibliome.alvisnlp.core.corpus.expressions.Expression" class="converter">Expression</a>
 </div>
-UNDOCUMENTED
+Only process documents that satisfy this filter.
 
 <a name="formFeature">
 
@@ -90,7 +92,7 @@ UNDOCUMENTED
 </div>
 <div class="param-type">Type: <a href="../converter/java.lang.String" class="converter">String</a>
 </div>
-UNDOCUMENTED
+Feature to use as word form.
 
 <a name="sectionFilter">
 
@@ -100,7 +102,7 @@ UNDOCUMENTED
 </div>
 <div class="param-type">Type: <a href="../converter/fr.inra.maiage.bibliome.alvisnlp.core.corpus.expressions.Expression" class="converter">Expression</a>
 </div>
-UNDOCUMENTED
+Process only sections that satisfy this filter.
 
 <a name="tokenLayer">
 
@@ -110,5 +112,5 @@ UNDOCUMENTED
 </div>
 <div class="param-type">Type: <a href="../converter/java.lang.String" class="converter">String</a>
 </div>
-UNDOCUMENTED
+Name of the layer containing token annotations.
 

@@ -2,13 +2,13 @@
 
 ## Synopsis
 
-Train a term concept classifier using [CONTES](XXX).
+Train a term concept classifier using [CONTES](https://github.com/ArnaudFerre/CONTES).
 
 **This module is experimental.**
 
 ## Description
 
-*ContesTrain* trains a classifier using [CONTES](XXX) for classifying terms in a ontology hierarchy.
+*ContesTrain* trains a classifier using [CONTES](https://github.com/ArnaudFerre/CONTES) for classifying terms in a ontology hierarchy.
 
 ## Parameters
 
