@@ -94,3 +94,13 @@ Use only the basename of source for documents created out of XMI files that do n
 </div>
 Name of the section for documents created out of XMI files that do not use the AlvisNLP/ML Proxy typesystem.
 
+<a name="ignoreMalformedXMI">
+
+### ignoreMalformedXMI
+
+<div class="param-level param-level-default-value">Default value: `false`
+</div>
+<div class="param-type">Type: <a href="../converter/java.lang.Boolean" class="converter">Boolean</a>
+</div>
+Ignore files that do not contain XMI serialization.
+

@@ -25,6 +25,10 @@
 </h2>
 
 <h2 class="no-toc">
+<a href="{{ '/reference/module/fr.inra.maiage.bibliome.alvisnlp.bibliomefactory.modules.ClearLayers' | relative_url }}" class="module">ClearLayers</a>
+</h2>
+
+<h2 class="no-toc">
 <a href="{{ '/reference/module/fr.inra.maiage.bibliome.alvisnlp.bibliomefactory.modules.DisambiguateAlternatives' | relative_url }}" class="module">DisambiguateAlternatives</a>
 </h2>
 

@@ -2,11 +2,18 @@
 
 ## Synopsis
 
-Creates a new layer in each section containing all annotations in source layers.
+Creates a new layer in each section containing all annotations in
+			source layers.
 
 ## Description
 
-*MergeLayers* adds annotations in the layers <a href="#sourceLayerNames" class="param">sourceLayerNames</a> into the layer <a href="#targetLayerName" class="param">targetLayerName</a>.
+*MergeLayers*
+				adds annotations in the layers
+				<a href="#sourceLayerNames" class="param">sourceLayerNames</a>
+				into the layer
+				<a href="#targetLayerName" class="param">targetLayerName</a>
+				.
+			
 
 ## Parameters
 

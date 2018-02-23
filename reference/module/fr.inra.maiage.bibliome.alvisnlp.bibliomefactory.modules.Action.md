@@ -6,9 +6,11 @@ Applies action expressions on selected elements.
 
 ## Description
 
-*Action* evaluates <a href="#target" class="param">target</a> as a list of elements, then it evaluates <a href="#action" class="param">action</a> on each element.
+*Action* evaluates <a href="#commit" class="param">commit</a> as a list of elements, then <a href="#target" class="param">target</a> as a list of elements on each commit element, then <a href="#action" class="param">action</a> on each target element.
 
 *Action* is useful when <a href="#action" class="param">action</a> is a side-effect expression. The side-effect expressions allowed are controlled by: <a href="#createDocuments" class="param">createDocuments</a>, <a href="#createSections" class="param">createSections</a>, <a href="#createRelations" class="param">createRelations</a>, <a href="#createTuples" class="param">createTuples</a>, <a href="#createAnnotations" class="param">createAnnotations</a>, <a href="#setArguments" class="param">setArguments</a>, <a href="#setFeatures" class="param">setFeatures</a> and <a href="#deleteElements" class="param">deleteElements</a>. If these parameters are not set to true then *Action* will refuse to evaluate the corresponding side-effect expressions.
+
+*Action* commits the changes on the data structure when each <a href="#commit" class="param">commit</a> element is done. When processing very large corpora, set <a href="#commit" class="param">commit</a> to reach documents or sections.
 
 ## Parameters
 
@@ -30,7 +32,7 @@ Action to perform on each result of <a href="#target" class="param">target</a>.
 </div>
 <div class="param-type">Type: <a href="../converter/fr.inra.maiage.bibliome.alvisnlp.core.corpus.expressions.Expression" class="converter">Expression</a>
 </div>
-Elements on which to perform the action. The expression is evaluated as a list of elements with the corpus as the context element.
+Elements on which to perform the action. The expression is evaluated as a list of elements with the commit element as the context element.
 
 <a name="constantAnnotationFeatures">
 
@@ -91,6 +93,16 @@ Constant features to add to each tuple created by this module
 <div class="param-type">Type: <a href="../converter/java.lang.Boolean" class="converter">Boolean</a>
 </div>
 Allow to add annotations to layers.
+
+<a name="commit">
+
+### commit
+
+<div class="param-level param-level-default-value">Default value: `nav:$()`
+</div>
+<div class="param-type">Type: <a href="../converter/fr.inra.maiage.bibliome.alvisnlp.core.corpus.expressions.Expression" class="converter">Expression</a>
+</div>
+Elements after which to commit changes. The expression is evaluated as a list of elements with the corpus as the context element.
 
 <a name="createAnnotations">
 
