@@ -18,7 +18,7 @@ Reads documents and annotations in the [BioNLP-ST 2013 a1/a2 format](XXX).
 </div>
 <div class="param-type">Type: <a href="../converter/fr.inra.maiage.bibliome.util.files.InputDirectory" class="converter">InputDirectory</a>
 </div>
-Path to the directory containing `.a2` files.
+Path to the directory containing `.txt` files.
 
 <a name="a1Dir">
 
